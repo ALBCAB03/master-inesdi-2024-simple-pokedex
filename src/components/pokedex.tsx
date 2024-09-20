@@ -8,7 +8,7 @@ import { LedDisplay } from "./led-display";
 import { Poketypes } from "./poketypes";
 
 import "./pokedex.css";
-import { Pokemon } from "models";
+
 
 export function Pokedex() {
   const { theme } = useTheme();

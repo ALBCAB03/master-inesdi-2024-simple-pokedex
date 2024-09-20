@@ -1,5 +1,4 @@
 import "./poketypes.css"
-import React from "react"
 import Fbug from "../icons/bug.svg"
 import Fdark from "../icons/dark.svg"
 import Fdragon from "../icons/dragon.svg"
