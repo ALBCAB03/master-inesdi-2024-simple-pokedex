@@ -1,6 +1,6 @@
 .pokedex {
-  width: 700px;
-  height: 360px;
+  width: 800px;
+  height: 500px;
 
   border-radius: 30px 8px 8px 30px;
 
@@ -36,6 +36,51 @@
   border-right: 6px solid var(--dark-grey);
   padding: 10px 20px;
   justify-content: space-evenly;
+}
+
+.team-panel {
+  width: 15%;
+  height: 100%;
+  border-right: 6px solid var(--dark-grey);
+  padding: 10px 20px;
+  justify-content: space-evenly;
+}
+
+.team-img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: gray;
+
+}
+
+.screen-pokemon-types{
+  width: 110%;
+  border-top: 6px solid var(--dark-grey);
+  padding: 5px;
+  margin-top: 5px;
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.screen-name-t{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  align-items: center; /* Y */
+  justify-content: center; /* X */
+
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.screen-pokemon-icons{
+  width: 80%;
+  padding: 5px;
+  text-align: right;
 }
 
 .screen {
